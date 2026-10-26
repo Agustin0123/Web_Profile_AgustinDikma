@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MY PROFILE | Agustin Dikma</title>
+<meta name="description" content="Website profil pribadi Agustin Dikma (Atin), mahasiswa Sistem Informasi.">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#home" class="logo">ATIN<span>.</span></a>
+  <button class="burger" id="burger" aria-label="Buka menu">☰</button>
+  <nav id="menu">
+    <a href="#home">Beranda</a>
+    <a href="#tentang">Tentang</a>
+    <a href="#favorit">Favorit</a>
+    <a href="#pengalaman">Pengalaman</a>
+  </nav>
+</header>
+
+<!-- 1. HERO -->
+<section id="home" class="hero">
+  <div class="hero-text reveal">
+    <p class="hi">Hai guys, I’m Atin 👋</p>
+    <h1><span class="solid">AGUSTIN</span> <span class="outline">DIKMA</span></h1>
+    <p class="tagline">Aku adalah mahasiswa Sistem Informasi Universitas Tanjungpura yang memiliki antusias terhadap UI/UX &amp; Web Dev</p>
+    <div class="cta">
+      <a href="#tentang" class="btn">Kenalan Dulu</a>
+      <a href="#favorit" class="btn ghost">Lihat Favoritku</a>
+    </div>
+  </div>
+  <div class="photo reveal">
+    <img src="assets/foto-profil.jpg" alt="Foto Agustin Dikma" onerror="this.remove()">
+    <span class="initial">A</span>
+  </div>
+</section>
+
+<!-- 2. TENTANG SAYA -->
+<section id="tentang" class="sec">
+  <h2>TENTANG <b>SAYA</b></h2>
+  <div class="grid2">
+    <div class="reveal">
+      <p>Aku lulusan SMA dengan jurusan <b>IPA</b> dan sekarang adalah mahasiswa <b>Sistem Informasi</b> di <b>Universitas Tanjungpura</b>. Aku memiliki minat dalam mempelajari <b>teknologi, manajemen, dan bisnis</b>.</p>
+      <h3>Hobi</h3>
+      <div class="chips"><span>📚 Membaca Novel</span><span>🍳 Memasak</span><span>📺 Menonton Drakor</span></div>
+    </div>
+    <div class="reveal">
+      <h3>Skill yang sedang dikembangkan</h3>
+      <div class="chips"><span>✍️ Meningkatkan kemampuan menulis cerita</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAVORIT -->
+<section id="favorit" class="sec alt">
+  <h2>MAKANAN &amp; MINUMAN <b>FAVORIT</b></h2>
+  <div class="grid2">
+    <div class="reveal">
+      <h3>🍽️ Makanan Kesukaan</h3>
+      <div class="chips"><span>Martabak Telur</span><span>Bakso</span><span>Seblak</span></div>
+    </div>
+    <div class="reveal">
+      <h3>🥤 Minuman Kesukaan</h3>
+      <div class="chips"><span>Jus Jeruk</span><span>Es Buah</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. PENGALAMAN & RIWAYAT -->
+<section id="pengalaman" class="sec">
+  <h2>PENGALAMAN &amp; <b>RIWAYAT</b></h2>
+  <div class="timeline">
+    <div class="item reveal"><span class="yr">Sekarang</span><h3>Mahasiswa Sistem Informasi</h3><p>Universitas Tanjungpura. Mempelajari teknologi, manajemen, dan bisnis.</p></div>
+    <div class="item reveal"><span class="yr">Tahun lalu</span><h3>Panitia Natal Pemuda: Bendahara</h3><p>Bertanggung jawab mengelola keuangan kepanitiaan.</p></div>
+    <div class="item reveal"><span class="yr">Selama sekolah</span><h3>Juara Kelas &amp; Juara Umum</h3><p>Sering meraih juara kelas dan juara umum.</p></div>
+    <div class="item reveal"><span class="yr">SMA</span><h3>Jurusan IPA</h3><p>Lulusan SMA jurusan Ilmu Pengetahuan Alam.</p></div>
+  </div>
+</section>
+
+<section class="sec alt"><p class="center">“Hidup kita, kita yang tentukan. Maka dari itu, jangan terpaku dengan hasil orang lain.”</p></section>
+<footer>© <span id="year"></span> Agustin Dikma · MY PROFILE</footer>
+<script src="script.js"></script>
+</body>
+</html>
